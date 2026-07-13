@@ -26,7 +26,7 @@ Rather than using an external coordination service, the system implements the **
 Each node: Ricart-Agrawala request/reply queue + Lamport clock
 ```
 
-*(Diagram placeholder — swap in the actual architecture SVG/image here)*
+
 
 ## What I Did
 
@@ -42,8 +42,6 @@ Each node: Ricart-Agrawala request/reply queue + Lamport clock
 - Successfully prevented double-booking under concurrent request scenarios across all three simulated servers
 - Identified and resolved deadlock scenarios caused by [*fill in: e.g. simultaneous REQUEST broadcast timing / reply queue ordering — add the specific root cause once confirmed*]
 - Verified correct Lamport clock ordering under out-of-order message delivery
-
-*(Add a screenshot or terminal log here showing: 2+ servers running, a booking request being granted/queued, and the mTLS handshake succeeding — this is the single most convincing piece of evidence in the whole repo)*
 
 ## Challenges & What I'd Improve
 
